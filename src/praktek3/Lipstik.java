@@ -1,9 +1,9 @@
 package praktek3;
 
 public class Lipstik {
-    String merk;
-    String warna;
-    String harga;
+    private String merk;
+    private String warna;
+    private String harga;
     
     void cetakinfo(){
         System.out.println("Merk \t:"+merk+"\n"+
