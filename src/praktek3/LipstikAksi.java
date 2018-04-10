@@ -16,6 +16,14 @@ public class LipstikAksi {
         System.out.println("Harganya \t: ");
         System.out.println(c.getHarga());
               
+        LipBalm cm = new LipBalm();
+        cm.setMerk("Bodyshop");
+        cm.setWarna("Pink muda");
+        cm.setHarga("100000");
+        cm.setJenisLipBalm("Glowing");
+        cm.cetakinfo();
+        System.out.println("Jenis :"+cm.getJenisLipBalm());
+        cm.throttle();
     }
     
 }
