@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package praktek3;
 
-/**
- *
- * @author proWindows 10
- */
-public class LipBalm {
+public class LipBalm extends Lipstik{
+    private String jenisLipBalm;
     
+    void throttle(){
+        System.out.println("Plincesss....");
+    }
 }
+
