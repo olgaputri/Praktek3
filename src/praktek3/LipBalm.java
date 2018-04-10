@@ -5,6 +5,17 @@ public class LipBalm extends Lipstik{
     
     void throttle(){
         System.out.println("Plincesss....");
+       
     }
+
+    public String getJenisLipBalm() {
+        return jenisLipBalm;
+    }
+
+    public void setJenisLipBalm(String jenisLipBalm) {
+        this.jenisLipBalm = jenisLipBalm;
+    }
+    
+    
 }
 
